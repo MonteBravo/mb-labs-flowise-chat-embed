@@ -801,7 +801,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
             </DeleteButton>
           </div>
         ) : null}
-        <div class="flex flex-col w-full h-full justify-start z-0">
+        <div class="flex flex-col w-full h-full justify-start z-0 pb-4">
           <div
             ref={chatContainer}
             class="overflow-y-scroll flex flex-col flex-grow min-w-full w-full px-3 pt-[70px] relative scrollable-container chatbot-chat-view scroll-smooth"
